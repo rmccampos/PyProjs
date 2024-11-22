@@ -24,8 +24,6 @@ df.info()
 
 df.drop_duplicates(inplace=True)
 df.info()
-
-type(df)
 df.dropna()
 
 acervo = pd.read_parquet('/content/drive/MyDrive/Colab Notebooks/Dia 1/dados_exemplares.parquet')
